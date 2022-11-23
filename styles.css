@@ -12,7 +12,7 @@ article {
   background-color: white;
   border-radius: 1rem;
   margin: auto;
-  width: min(90%, 22rem);
+  width: min(90%, 30rem);
   margin-top: 1.5rem;
 }
 picture {
@@ -26,6 +26,9 @@ picture img {
   width: 100%;
   border-top-left-radius: 1rem;
   border-top-right-radius: 1rem;
+}
+.content {
+    width: min(100%,15rem);
 }
 .text-content {
     padding: 20px;
@@ -88,7 +91,6 @@ button img {
 @media  (min-width:600px) {
     article {
         display: flex;
-        width: min(90%, 30rem);
     }
     
 }
