@@ -28,18 +28,16 @@ picture img {
   border-top-left-radius: 1rem;
   border-top-right-radius: 1rem;
 }
-.content {
-    width: min(50%,15rem);
-}
+
 .text-content {
-    padding: 20px;
+  padding: 20px;
 }
 .categorie {
   letter-spacing: 3px;
   font-size: 13px;
   text-transform: uppercase;
   color: hsl(228, 12%, 48%);
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
 
 h1 {
@@ -53,15 +51,14 @@ h1 {
 p {
   color: hsl(228, 12%, 48%);
   font-size: 0.9rem;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   padding-bottom: 10px;
-
 }
 
 .prices {
-    display: flex;
-    align-items: center;
-    gap: 1rem;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
 }
 .new {
   color: hsl(158, 36%, 37%);
@@ -74,26 +71,35 @@ p {
   color: hsl(228, 12%, 48%);
 }
 button {
-    font-size: 1rem;
-    font-weight: 700;
-    border: none;
-    border-radius: 0.6rem;
-    width: min(100%,22rem);
-    padding: 14px;
-    display: flex;
-    justify-content: center;
-    background-color: hsl(158, 36%, 37%);
-    color: white;
-    gap: 10px;
+  font-size: 1rem;
+  font-weight: 700;
+  border: none;
+  border-radius: 0.6rem;
+  width: min(13rem, 22rem);
+  padding: 14px;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  background-color: hsl(158, 36%, 37%);
+  color: white;
+  gap: 10px;
 }
 button img {
-    width: 15px;
+  width: 15px;
 }
 
-@media  (min-width:500px) {
-    article {
-        display: flex;
-    }
-    
-    
+@media (min-width: 500px) {
+  article {
+    display: flex;
+    margin: auto;
+    margin-top: 10rem;
+  }
+  picture img {
+    border-top-left-radius: 1rem;
+    border-bottom-left-radius: 1rem;
+    border-top-right-radius: 0rem !important;
+  }
+  .content {
+    width: 100%;
+  }
 }
