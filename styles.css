@@ -42,7 +42,7 @@ picture img {
 
 h1 {
   font-family: "Fraunces", serif;
-  font-size: 1.8rem;
+  font-size: 1.9rem;
   font-weight: 700;
   color: hsl(212, 21%, 14%);
   padding: 10px 0 10px 0;
@@ -75,7 +75,7 @@ button {
   font-weight: 700;
   border: none;
   border-radius: 0.6rem;
-  width: min(13rem, 22rem);
+  width:  100%;
   padding: 14px;
   margin: auto;
   display: flex;
@@ -102,4 +102,8 @@ button img {
   .content {
     width: 100%;
   }
+  button {
+    width:70%
+  }
+  
 }
