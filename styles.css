@@ -5,6 +5,7 @@
   padding: 0;
   box-sizing: border-box;
 }
+
 body {
   background-color: hsl(30, 38%, 92%);
 }
@@ -88,6 +89,7 @@ button img {
   width: 15px;
 }
 
+/*Desktop*/
 @media (min-width: 500px) {
   article {
     display: flex;
