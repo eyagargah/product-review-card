@@ -84,9 +84,13 @@ button {
   background-color: hsl(158, 36%, 37%);
   color: white;
   gap: 10px;
+  cursor: pointer;
 }
 button img {
   width: 15px;
+}
+button:hover {
+  background-color: rgb(47, 91, 75);
 }
 
 /*Desktop*/
